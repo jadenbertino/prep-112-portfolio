@@ -142,12 +142,14 @@ body {
   text-decoration: none;
   color: #000;
   transition: color 300ms ease;
+  transition: transform 300ms ease;
   padding: 16px;
   font-size: 20px;
 }
 
 .project-link:hover {
   color: steelblue;
+  transform: scale(1.1);
 }
 
 /*
