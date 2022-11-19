@@ -5,6 +5,14 @@ html {
   font-weight: 300;
 }
 
+body {
+  margin: 0;
+  background-image: url("./assets/background-img.png");
+  background-size: cover;  /* sets smallest side (width or height) to 100% of container and preserves aspect ratio
+  by chopping off from the longer side */
+  background-attachment: fixed; /* sets background image to 'fixed' so it doesn't scroll */
+}
+
 /*
 
   UTILITY CLASSES
