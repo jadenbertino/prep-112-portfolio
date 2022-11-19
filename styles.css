@@ -27,6 +27,10 @@ html {
   color: white; /* color inherits! */
 }
 
+.blue-text {
+  color: lightblue;
+}
+
 .pb-50 {
   padding-bottom: 50px;
 }
@@ -136,4 +140,14 @@ html {
 
 .project-link:hover {
   color: steelblue;
+}
+
+/*
+
+  CONTACT
+
+*/
+
+.contact-section {
+  background-color: #303b43;
 }
