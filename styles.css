@@ -1,0 +1,56 @@
+html {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/*
+
+  UTILITY CLASSES
+
+*/
+
+.text-align-center {
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/*
+
+  SEMANTIC CLASSES
+
+*/
+
+.page-header {
+  background-color: darkslategray;
+}
+
+.nav-item {
+  text-decoration: none; /* removes default underline */
+  transition: color 300ms ease;
+}
+
+.nav-item:hover {
+  color: steelblue;
+}
