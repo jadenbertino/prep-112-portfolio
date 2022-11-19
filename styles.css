@@ -106,3 +106,34 @@ html {
 .tech-section {
   background-color: gainsboro;
 }
+
+/*
+
+  PROJECTS
+
+*/
+
+.projects-section {
+  background-color: snow;
+}
+
+.project-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px darkslategray;
+}
+
+.project-link,
+.project-link:visited {
+  text-decoration: none;
+  color: #000;
+  transition: color 300ms ease;
+  padding: 16px;
+  font-size: 20px;
+}
+
+.project-link:hover {
+  color: steelblue;
+}
